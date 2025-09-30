@@ -19,7 +19,7 @@ async function GenrePage({
       <div className="flex flex-col space-y-5 mt-32 xl:mt-42">
   <h1 className="text-6xl font-bold px-10">Resultados para {genre}</h1>
 
-        <MoviesCarousel title={`Genre`} movies={movies} isVertical />
+        <MoviesCarousel title={`Género`} movies={movies} isVertical />
       </div>
     </div>
   );
