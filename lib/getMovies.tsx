@@ -38,7 +38,7 @@ export async function getSearchedMovies(term: string) {
 
   url.searchParams.set("query", term);
   url.searchParams.set("include_adult", "false");
-  url.searchParams.set("language", "en-US");
+  url.searchParams.set("language", "es-ES");
   url.searchParams.set("page", "1");
 
   const options: RequestInit = {
